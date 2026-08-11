@@ -98,14 +98,6 @@ Of the **24 screens**, 14 are happy path and **10 are edge and failure states** 
 
 ---
 
-## 🔗 View the Case Study
-
-**[Open the full interactive case study →](https://dhaval-sukharamwala.github.io/YardIQ/)**
-
-Includes problem infographics, before/after system comparison, the emotion curve across one truck, failure-state gallery, and the full design system.
-
----
-
 ## 💻 Tech Stack
 
 - **Design Tool:** Figma
