@@ -10,7 +10,7 @@ Designing a mobile gate-in experience for terminal operators handling container 
 
 ## 📊 Visual Overview
 
-![Visual Overview](YardIQ.png)
+![Visual Overview](YIQ.png)
 
 ---
 
