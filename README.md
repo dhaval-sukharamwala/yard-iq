@@ -6,13 +6,8 @@ Designing a mobile gate-in experience for terminal operators handling container 
 
 🚀  **[View the live case study →](https://dhaval-sukharamwala.github.io/yard-iq/)**
 
----
-
-## 📊 Visual Overview
 
 ![Visual Overview](YIQ.png)
-
----
 
 ## 🎯 The Challenge
 
