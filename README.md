@@ -4,7 +4,7 @@
 
 Designing a mobile gate-in experience for terminal operators handling container identification, damage inspection, supervisor approval, and gatepass release — where AI accelerates the work but a named human still owns every decision.
 
-🚀  **[View the live case study →](https://dhaval-sukharamwala.github.io/yard-iq/)**
+🚀  **[View the live case study →](https://dhaval-sukharamwala.github.io/yardIQ/)**
 
 
 ![Visual Overview](YIQ.png)
