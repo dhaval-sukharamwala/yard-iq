@@ -4277,6 +4277,118 @@
     </div>
   </section>
 
+    <!-- ============ DESIGN SYSTEM · FOUNDATIONS (added) ============ -->
+  <section class="quiet" id="sec-foundations" style="border-top:1px solid var(--hair)">
+    <div class="wrap">
+      <div class="sect-head reveal" data-n="10b">
+        <span class="eyebrow">Design system · Foundations</span>
+        <h2>Every screen is built from the same small kit</h2>
+      </div>
+
+      <style>
+        #sec-foundations .dsx-glabel{display:block;font-size:13px;font-weight:600;letter-spacing:.08em;color:var(--accent);margin:40px 0 4px}
+        #sec-foundations .dsx-gdesc{font-size:14px;color:var(--soft);margin:0 0 16px;max-width:640px}
+        #sec-foundations .dsx-swatches{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:20px}
+        #sec-foundations .dsx-sw{min-width:0}
+        #sec-foundations .dsx-sw .dsx-chip{display:block;width:100%;height:80px;max-height:80px;padding:0;margin:0;border-radius:12px;border:1px solid var(--line);box-sizing:border-box}
+        #sec-foundations .dsx-sw .dsx-meta{display:flex;justify-content:space-between;margin-top:8px;font-size:13px}
+        #sec-foundations .dsx-sw .dsx-meta b{font-weight:600;color:var(--ink)}
+        #sec-foundations .dsx-sw .dsx-meta span{color:var(--soft);font-size:12px}
+        #sec-foundations .dsx-sw .dsx-use{font-size:11px;color:var(--soft);margin-top:2px;line-height:1.4}
+        #sec-foundations .dsx-typeface{font-size:52px;font-weight:800;color:var(--ink);line-height:1.1;margin:8px 0 32px}
+        #sec-foundations .dsx-type{display:grid;grid-template-columns:minmax(180px,1.4fr) 1fr 1fr;column-gap:24px;row-gap:34px;align-items:baseline;margin-top:8px}
+        #sec-foundations .dsx-type .dsx-th{font-size:15px;color:var(--faint);font-weight:400}
+        #sec-foundations .dsx-type .dsx-cell{color:var(--ink);line-height:1;min-width:0}
+        @media (max-width:640px){#sec-foundations .dsx-type{grid-template-columns:1.4fr 1fr 1fr;column-gap:12px}}
+        #sec-foundations .dsx-strip{display:flex;flex-wrap:wrap;gap:32px;align-items:flex-end;margin-top:16px}
+        #sec-foundations .dsx-sp{text-align:center}
+        #sec-foundations .dsx-sp .dsx-b{background:#F59E0B;border-radius:2px;margin:0 auto 6px}
+        #sec-foundations .dsx-sp .dsx-v{font-size:13px;font-weight:600;color:var(--ink)}
+        #sec-foundations .dsx-sp .dsx-u{font-size:11px;color:var(--soft)}
+        #sec-foundations .dsx-rad{display:flex;flex-wrap:wrap;gap:32px;align-items:center;margin-top:24px}
+        #sec-foundations .dsx-rad .dsx-box{background:#fff;border:1.5px solid var(--line);width:96px;height:56px}
+        #sec-foundations .dsx-consts{font-size:13px;color:var(--soft);line-height:1.9}
+      </style>
+
+      <div class="reveal">
+        <p class="note" style="max-width:680px">Before a single screen was drawn, the visual language was locked down. The operator app runs on a deliberately small foundation: four color tiers, one typeface, an 8-point grid and three radii. Small kit, fast decisions, consistent screens.</p>
+
+        <span class="dsx-glabel">BRAND</span>
+        <p class="dsx-gdesc">The YardIQ amber identity. Reserved for brand moments, focus rings, active state and selection — never body text or large surfaces.</p>
+        <div class="dsx-swatches">
+          <div class="dsx-sw"><div class="dsx-chip" style="background:#F59E0B"></div><div class="dsx-meta"><b>Brand / Amber 500</b><span>#F59E0B</span></div><div class="dsx-use">Core brand. Active progress, focus rings, page dots</div></div>
+          <div class="dsx-sw"><div class="dsx-chip" style="background:#FEF3C7"></div><div class="dsx-meta"><b>Brand / Amber 100</b><span>#FEF3C7</span></div><div class="dsx-use">Brand tint. Selected cards, badges, avatar bg</div></div>
+          <div class="dsx-sw"><div class="dsx-chip" style="background:#B45309"></div><div class="dsx-meta"><b>Brand / Amber 700</b><span>#B45309</span></div><div class="dsx-use">Brand deep. Links, accent text, glyphs on Amber 100</div></div>
+        </div>
+
+        <span class="dsx-glabel">PRIMARY</span>
+        <p class="dsx-gdesc">Colors that do the main job on every screen — the action color and primary content color.</p>
+        <div class="dsx-swatches">
+          <div class="dsx-sw"><div class="dsx-chip" style="background:#0F172A"></div><div class="dsx-meta"><b>Primary / Navy</b><span>#0F172A</span></div><div class="dsx-use">Primary CTA fill, keypad active state</div></div>
+          <div class="dsx-sw"><div class="dsx-chip" style="background:#111827"></div><div class="dsx-meta"><b>Primary / Ink</b><span>#111827</span></div><div class="dsx-use">Headings, values, primary text, filled PIN dots</div></div>
+          <div class="dsx-sw"><div class="dsx-chip" style="background:#FFFFFF"></div><div class="dsx-meta"><b>Primary / White</b><span>#FFFFFF</span></div><div class="dsx-use">Cards, keys, inputs — primary surface for content</div></div>
+        </div>
+
+        <span class="dsx-glabel">SECONDARY</span>
+        <p class="dsx-gdesc">Supporting neutrals for hierarchy, structure and de-emphasis.</p>
+        <div class="dsx-swatches">
+          <div class="dsx-sw"><div class="dsx-chip" style="background:#64748B"></div><div class="dsx-meta"><b>Secondary / Slate</b><span>#64748B</span></div><div class="dsx-use">Secondary text, helper copy, icons</div></div>
+          <div class="dsx-sw"><div class="dsx-chip" style="background:#94A3B8"></div><div class="dsx-meta"><b>Secondary / Muted</b><span>#94A3B8</span></div><div class="dsx-use">Disabled text, countdown timers</div></div>
+          <div class="dsx-sw"><div class="dsx-chip" style="background:#E2E8F0"></div><div class="dsx-meta"><b>Secondary / Border</b><span>#E2E8F0</span></div><div class="dsx-use">Hairlines, dividers, inactive progress</div></div>
+          <div class="dsx-sw"><div class="dsx-chip" style="background:#F8FAFC"></div><div class="dsx-meta"><b>Secondary / Surface</b><span>#F8FAFC</span></div><div class="dsx-use">Content sheet background behind cards</div></div>
+        </div>
+
+        <span class="dsx-glabel">SEMANTIC · FEEDBACK</span>
+        <p class="dsx-gdesc">Status only — never decorative. Green for approvals and completion, red for rejections and destructive actions.</p>
+        <div class="dsx-swatches">
+          <div class="dsx-sw"><div class="dsx-chip" style="background:#16A34A"></div><div class="dsx-meta"><b>Success / Green 600</b><span>#16A34A</span></div><div class="dsx-use">Approvals, success check, verified states</div></div>
+          <div class="dsx-sw"><div class="dsx-chip" style="background:#DCFCE7"></div><div class="dsx-meta"><b>Success / Green 100</b><span>#DCFCE7</span></div><div class="dsx-use">Success badge background</div></div>
+          <div class="dsx-sw"><div class="dsx-chip" style="background:#DC2626"></div><div class="dsx-meta"><b>Danger / Red 600</b><span>#DC2626</span></div><div class="dsx-use">Rejections, errors, destructive actions</div></div>
+          <div class="dsx-sw"><div class="dsx-chip" style="background:#FEE2E2"></div><div class="dsx-meta"><b>Danger / Red 100</b><span>#FEE2E2</span></div><div class="dsx-use">Error surfaces, rejected banners</div></div>
+        </div>
+
+        <span class="dsx-glabel">TYPOGRAPHY</span>
+        <p class="dsx-gdesc">One family (Geist), max 4 sizes per screen, 2 weights for hierarchy. Never bold everything.</p>
+        <div class="dsx-typeface">Geist</div>
+        <div class="dsx-type">
+          <div class="dsx-th">Style</div><div class="dsx-th">Font size</div><div class="dsx-th">Line height</div>
+          <div class="dsx-cell" style="font-size:32px;font-weight:700">Display</div><div class="dsx-cell" style="font-size:32px;font-weight:700">32px</div><div class="dsx-cell" style="font-size:32px;font-weight:700">40px</div>
+          <div class="dsx-cell" style="font-size:28px;font-weight:700">H1</div><div class="dsx-cell" style="font-size:28px;font-weight:700">28px</div><div class="dsx-cell" style="font-size:28px;font-weight:700">36px</div>
+          <div class="dsx-cell" style="font-size:24px;font-weight:700">H2</div><div class="dsx-cell" style="font-size:24px;font-weight:700">24px</div><div class="dsx-cell" style="font-size:24px;font-weight:700">32px</div>
+          <div class="dsx-cell" style="font-size:20px;font-weight:700">H3</div><div class="dsx-cell" style="font-size:20px;font-weight:700">20px</div><div class="dsx-cell" style="font-size:20px;font-weight:700">28px</div>
+          <div class="dsx-cell" style="font-size:18px;font-weight:700">H4</div><div class="dsx-cell" style="font-size:18px;font-weight:700">18px</div><div class="dsx-cell" style="font-size:18px;font-weight:700">26px</div>
+          <div class="dsx-cell" style="font-size:16px;font-weight:400">Body LG</div><div class="dsx-cell" style="font-size:16px;font-weight:400">16px</div><div class="dsx-cell" style="font-size:16px;font-weight:400">24px</div>
+          <div class="dsx-cell" style="font-size:14px;font-weight:400">Body</div><div class="dsx-cell" style="font-size:14px;font-weight:400">14px</div><div class="dsx-cell" style="font-size:14px;font-weight:400">20px</div>
+          <div class="dsx-cell" style="font-size:13px;font-weight:400">Body SM</div><div class="dsx-cell" style="font-size:13px;font-weight:400">13px</div><div class="dsx-cell" style="font-size:13px;font-weight:400">18px</div>
+          <div class="dsx-cell" style="font-size:12px;font-weight:400">Caption</div><div class="dsx-cell" style="font-size:12px;font-weight:400">12px</div><div class="dsx-cell" style="font-size:12px;font-weight:400">16px</div>
+          <div class="dsx-cell" style="font-size:11px;font-weight:500">Overline</div><div class="dsx-cell" style="font-size:11px;font-weight:500">11px</div><div class="dsx-cell" style="font-size:11px;font-weight:500">14px</div>
+          <div class="dsx-cell" style="font-size:16px;font-weight:500">Label LG</div><div class="dsx-cell" style="font-size:16px;font-weight:500">16px</div><div class="dsx-cell" style="font-size:16px;font-weight:500">24px</div>
+          <div class="dsx-cell" style="font-size:14px;font-weight:500">Label</div><div class="dsx-cell" style="font-size:14px;font-weight:500">14px</div><div class="dsx-cell" style="font-size:14px;font-weight:500">20px</div>
+          <div class="dsx-cell" style="font-size:12px;font-weight:500">Label SM</div><div class="dsx-cell" style="font-size:12px;font-weight:500">12px</div><div class="dsx-cell" style="font-size:12px;font-weight:500">16px</div>
+        </div>
+
+        <span class="dsx-glabel">SPACING · RADIUS · SIZING</span>
+        <p class="dsx-gdesc">4/8-point grid. Related elements sit closer; unrelated groups get 2× the gap.</p>
+        <div class="dsx-strip">
+          <div class="dsx-sp"><div class="dsx-b" style="width:8px;height:8px"></div><div class="dsx-v">4</div><div class="dsx-u">inline</div></div>
+          <div class="dsx-sp"><div class="dsx-b" style="width:16px;height:16px"></div><div class="dsx-v">8</div><div class="dsx-u">chip gaps</div></div>
+          <div class="dsx-sp"><div class="dsx-b" style="width:24px;height:24px"></div><div class="dsx-v">12</div><div class="dsx-u">list gaps</div></div>
+          <div class="dsx-sp"><div class="dsx-b" style="width:32px;height:32px"></div><div class="dsx-v">16</div><div class="dsx-u">card padding</div></div>
+          <div class="dsx-sp"><div class="dsx-b" style="width:48px;height:48px"></div><div class="dsx-v">24</div><div class="dsx-u">screen padding</div></div>
+          <div class="dsx-sp"><div class="dsx-b" style="width:72px;height:72px"></div><div class="dsx-v">36</div><div class="dsx-u">sheet bottom</div></div>
+        </div>
+        <div class="dsx-rad">
+          <div class="dsx-sp"><div class="dsx-box" style="border-radius:12px"></div><div class="dsx-v">r = 12</div><div class="dsx-u">Inputs · OTP boxes</div></div>
+          <div class="dsx-sp"><div class="dsx-box" style="border-radius:16px"></div><div class="dsx-v">r = 16</div><div class="dsx-u">Cards · Keys · Sheets</div></div>
+          <div class="dsx-sp"><div class="dsx-box" style="border-radius:999px;width:120px;height:48px"></div><div class="dsx-v">r = 999</div><div class="dsx-u">Pills · CTAs · Dots</div></div>
+          <div class="dsx-consts">CTA height: 56px · full-width 364<br>Keypad key: 113 × 64 &nbsp;·&nbsp; OTP box: 52 × 60<br>Min tap target: 44 × 44 &nbsp;·&nbsp; Content sheet: 562px · pad 28/24/36/24</div>
+        </div>
+
+        
+      </div>
+    </div>
+  </section>
+
   <section class="surf quiet" style="border-top:1px solid var(--hair)">
     <div class="wrap">
       <div class="sect-head head-split reveal" data-n="05">
@@ -4737,7 +4849,7 @@
 
 
 
-  <section id="sec-outcome">
+    <section id="sec-outcome">
     <div class="wrap">
       <div class="sect-head head-split reveal" data-n="11">
         <div>
